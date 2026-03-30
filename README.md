@@ -56,9 +56,33 @@ These findings demonstrate that explainability must be evaluated jointly with mo
 --
 
 ## Repository Structure
+
+```text
 XAI-Financial-Transformer/
+├── README.md
 ├── report.pdf
 ├── notebooks/
-│ ├── 1_data_processing.ipynb
-│ ├── 2_hmm_regime_segmentation.ipynb
-│ ├── 3_attention_visualization.ipynb
+│   ├── 1_data_processing.ipynb
+│   ├── 2_hmm_regime_segmentation.ipynb
+│   ├── 3_attention_visualization.ipynb
+```
+---
+
+## Team Project
+
+This project was completed collaboratively as part of a research initiative.  
+Different components of the pipeline were developed across the team, with a focus on integrating modeling, regime detection, and explainability.
+
+---
+
+## Future Work
+
+- Extend explainability with SHAP and other model-agnostic methods  
+- Apply attention flow for more precise attribution tracking  
+- Explore deeper integration between regime detection and model training  
+
+---
+
+## References
+
+Data sourced from the Ken French Data Library (Fama-French factors and portfolio returns).
