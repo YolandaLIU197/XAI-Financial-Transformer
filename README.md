@@ -56,3 +56,9 @@ These findings demonstrate that explainability must be evaluated jointly with mo
 --
 
 ## Repository Structure
+XAI-Financial-Transformer/
+├── report.pdf
+├── notebooks/
+│ ├── 1_data_processing.ipynb
+│ ├── 2_hmm_regime_segmentation.ipynb
+│ ├── 3_attention_visualization.ipynb
